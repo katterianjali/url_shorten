@@ -1,6 +1,6 @@
 import sqlite3
 
-# Routine to initialise the database
+# Routine to generate the database
 connection = sqlite3.connect('database.db')
 
 with open('schema.sql') as f:
